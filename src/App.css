@@ -1,0 +1,41 @@
+body {
+  background-color: #ececec;
+}
+.cat-list {
+  display: flex;
+  flex-direction: row;
+}
+.selected-cat .card {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+h1 {
+  margin-top: 1em;
+  text-align: center;
+}
+.card {
+  width: 25%;
+  margin: 2em;
+  padding: 1em;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card h2 {
+  text-align: left;
+}
+.selected-cat .btn {
+  width: 5em;
+  height: 3em;
+}
+.btn {
+  height: 2em;
+  width: 3em;
+}
+.card img {
+  width: 100%;
+  margin: 0.5em 0 1.5em ;
+}
